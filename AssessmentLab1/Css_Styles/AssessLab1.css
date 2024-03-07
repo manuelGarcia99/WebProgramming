@@ -1,0 +1,28 @@
+table {
+    border-style: none;
+    border: 1 white;
+    border-spacing: 0;
+    width: 40%;
+}
+td{
+    width: 10%;
+    border-style: ridge;
+    border-spacing: 0;
+    padding: 10px;
+}
+.special {
+    width: 4.5%;
+    border-style: ridge;
+    border-spacing: 0;
+}
+#internal {
+    width: 95%;
+    border: 3 white;
+    border-style: none;
+    border-spacing: 0;
+}
+.internalCells {
+    padding: 4;
+    border-spacing: 0;
+    border-style:  ridge;
+}

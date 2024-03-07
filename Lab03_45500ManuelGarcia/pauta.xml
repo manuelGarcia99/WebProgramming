@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela><cd id="1"><Name>Ana Silva</Name>
+                    <Student_No>A12345</Student_No>
+                    <Exam_1>15</Exam_1>
+                    <Exam_2>17</Exam_2></cd>
+        <cd id ="2"><Name>Mário Fonseca</Name>
+            <Student_No>A54321</Student_No>
+            <Exam_1>11</Exam_1>
+            <Exam_2>7</Exam_2></cd>
+        <cd id ="3"><Name>António Abreu</Name>
+            <Student_No>A44556</Student_No>
+            <Exam_1>14</Exam_1>
+            <Exam_2>13</Exam_2></cd>
+        <cd id ="4"><Name>Amélia Lourenço</Name>
+            <Student_No>A85734</Student_No>
+            <Exam_1>8</Exam_1>
+            <Exam_2>12</Exam_2></cd>
+        <cd id ="5"><Name>Alice Guedes </Name>
+            <Student_No>A33321</Student_No>
+            <Exam_1>9</Exam_1>
+            <Exam_2>6</Exam_2></cd></tabela>

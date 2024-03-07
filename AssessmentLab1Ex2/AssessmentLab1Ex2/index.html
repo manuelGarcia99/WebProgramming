@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="UTF-8"> <link rel="stylesheet" href="CSS_Styles/styles.css" type="text/css"></head>
+    <body>
+        <form align = center valign="top" >
+            <ol>
+                <li>Nome do aluno: <br><input type="text" name="nome" id="nome" placeholder="Insira o seu nome" style="width: 50%;"></li><!--Nome do aluno, distrito ,género , morada ,código postal e data de nascimento-->
+                <li>Distrito:<br><input type="text" id="capital" name="capital" placeholder="Qual é a sua capital de distrito?" style="width: 50%;"></li>
+                <form>
+                    <p>Introduza o seu género:</p>
+                    <input style="margin-left: .78%;" type="radio" id="M" name="Gender" value="M">
+                    <label>M</label><br>
+                    <input type="radio" id="F" name="Gender" value="F"> 
+                    <label>F</label><br>
+                </form>
+
+                <br>
+                Morada:
+                <br><textarea placeholder="Escreva aqui a sua morada fixa, onde costuma viver" style="width: 50%;"
+                    name="morada" id="morada"></textarea>
+                    <li>Código Postal: <br><input class="cp" type="text" placeholder="0000" id="first_digitsCP" pattern="[0-9]{4} " maxlength="4" style="width: 4ch;">-
+                    <input type="text" class="cp" id="second_digitsCP" placeholder="000" maxlength="3" pattern="[0-9]{3}" style="width: 3ch;"></li>
+                <li>Data de Nascimento: <br> <input type="date" id="date" name="date"></li>
+                <li>Curso do aluno: <br><input type="text" name="curso" id="curso" placeholder="Insira o curso" style="width: 50%;"></li>
+                <li><select required style="width: 50%;"><option value="" disabled selected hidden>Regime de Ingresso</option>
+                <option>Regime geral</option>
+                <option>Maiores de 23</option>
+                <option>Titulares de CEF</option>
+                <option>Mudança de curso</option>
+                <option>Transferência</option>
+                <option>Ano Zero</option>
+                <option>Curso livre</option>
+                </select></li>
+                <li>Este curso foi a sua primeira opção? <br>
+                   <label for = "sim">Sim</label><input type="radio" name="sim" value="sim" id="sim">
+                   <label for = "não">Não</label><input type="radio" name="não" value="não" id="não">
+                </li>
+                <li><button type ="submit">Submeter</button> <button type="reset">Limpar</button> </li>
+            </ol>
+        </form>
+    </body>
+
+
+
+
+</html>

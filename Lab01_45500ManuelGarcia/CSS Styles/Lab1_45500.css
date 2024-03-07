@@ -1,0 +1,99 @@
+header {
+  margin: 10px;
+}
+
+.inline_list {
+    background-color: aqua;
+    padding-bottom: 15px;
+    
+}
+
+
+.inline_list li{
+    display : inline-block;
+    margin-right: 30px;
+    color: white;
+    
+}
+
+.branco {
+  color: white;
+  text-decoration: none;
+}
+.image {
+    float: left;
+  margin-right: 2px;
+  width: 20%;
+  height: 15%;
+}
+
+.paragraph {
+    margin-top: 7.5%;
+  margin-left: 20%;
+}
+
+.unorder {
+    list-style-type: disc;
+}
+
+.sublist {
+    list-style-type:none; /* remove the default bullet points */
+ 
+}
+
+.sublist li {
+    position: relative; /* set the position of the bullet point to relative */
+  padding-left: 1.5em;
+}
+
+.sublist li:before {
+    content: "\2022"; 
+    color: white;/* add an empty content before the list item */
+  position: absolute; /* set the position of the bullet point to absolute */
+  top: 50%; /* position the bullet point vertically in the middle */
+  left: 0; /* position the bullet point to the left of the list item */
+  width: 5px; /* set the width of the bullet point */
+  height: 5px; /* set the height of the bullet point */
+  border: 1px solid black; /* add a black border to the bullet point */
+  border-radius: 50%; /* make the bullet point circular */
+  transform: translateY(-50%); /* adjust the vertical position of the bullet point */
+  
+}
+
+.form {
+  background-color: whitesmoke;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+ol {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}
+
+ol li{
+  padding-top: 30px;
+  valign: "top";
+  align: "center";
+}
+
+footer {
+  background-color: black;
+  height: 26px;
+}
+
+.copyright {
+  color: #ffffff;
+}
+
+.tutorial {
+  float: right; /* aligns the header to the right */
+  width: 30%; /* sets the width of the header */
+}
+
+.aprender {
+  float: left; /* aligns the header to the left */
+  width: 70%; /* sets the width of the header */
+}
+

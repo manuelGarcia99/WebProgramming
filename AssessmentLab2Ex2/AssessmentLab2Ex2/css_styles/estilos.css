@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color : #000;
+}
+
+
+.artigo h2 ,a{
+    color: #C60;
+}
+.artigo{
+    text-align: left;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+}
+
+#exterior {
+    width: 90%;
+    align-self: center;
+    margin: 0px,auto,0px,auto;
+}
+
+#menu {
+    width: 20%;
+    padding : 0;
+    font-size: 0.9em;
+    padding: 0%;
+    margin: 0%;
+    float: left;
+}
+
+#conteudo {
+    float: right;
+    width: 78%;
+    display: flex;
+}
+
+#principal {
+    float: left;
+    width: 73%;
+}
+
+#cabecalho {
+    color: #c60;
+    text-align: left;
+}
+
+#navegacao {
+    background-color: #4286f4;
+    padding: 0.2em, 0, 0.2em,0;
+    margin-bottom: 0%;
+    text-align: left;
+}
+ 
+.inline_list {
+    background-color: #4286f4;
+    
+    
+}
+
+.inline_list li a {
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.inline_list li {
+    display : inline-block;
+    
+}
+
+.inline_list li a:hover {
+    padding: 0.5em;
+    color: orange;
+    text-decoration: underline;
+}
+
+.secunHead{
+    background-color: #DB905C;
+    color: white;
+    
+    padding : 0.2em;
+    font-size: 1em;
+}
+.secon{
+    text-align: left;
+    margin-left: 5px;
+}
+
+
+#favoritos {
+    padding: 5px;
+    margin-top: 1em;
+    background-color: #F8F8F8;
+    border: 1px solid #C5C5C5;
+    text-align: left;
+
+}
+
+#favoritos h3{
+    color: #036;
+
+}
+
+#favoritos p {
+    color: #999;
+}
+#favoritos a{
+    color: blue;
+}
+
+#grupos {
+    text-align: left;
+    padding: 5px;
+    margin-top: 0.5em;
+    background-color: #FFF6CD;
+    border: 1px dashed #C60;
+  }
+  
+  #grupos h3 {
+    color: #036;
+  }
+  
+  #grupos p {
+    margin-left: 25px;
+    position: relative;
+  }
+  
+  #grupos p:before {
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #C60;
+  }
+  
+  #grupos a {
+    color: #C60;
+  }
+
+#rodape{
+    margin-top: 1em;
+    padding: 0.1em 0 0.1em 0;
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
+    background: #F8F8F8;
+    height: 10%;
+    margin-top: 400px;
+    width: 90%;
+    align-self: center;
+    text-align: right;
+}
+
+#grupos i {
+    margin-right: 1em;
+}

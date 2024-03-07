@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color : #000;
+}
+#exterior {
+    width: 90%;
+    align-self: center;
+    margin: 0px,auto,0px,auto;
+}
+
+#menu {
+    width: 78%;
+    padding : 0;
+    font-size: 0.9em;
+    
+}
+
+#conteudo {
+    width: 20%;
+}
+
+#principal {
+    width: 75%;
+}
+
+#secundario {
+    width: 22%;
+}
+
+#cabecalho {
+    padding: 0.5em;
+}
+
+#cabecalho h1 {
+    color: #c60;
+}
+
+#navegacao {
+    background-color: #4286f4;
+    padding: 0.2em, 0, 0.2em,0;
+}
+ 
+.inline_list {
+    background-color: #4286f4;
+    
+    
+}
+
+.inline_list li a {
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.inline_list li {
+    display : inline-block;
+    
+}
+
+.inline_list li a:hover {
+    padding: 0.5em;
+    color: orange;
+    text-decoration: underline;
+}
+
+#favoritos {
+    padding: 5px;
+    margin-top: 1em;
+    background-color: #F8F8F8;
+    border: 1px solid #C5C5C5;
+
+}
+
+#favoritos h3{
+    color: #036;
+
+}
+
+#favoritos p {
+    color: #999;
+}
+
+#grupos {
+    padding: 5px;
+    margin-top: 0.5em;
+    background-color: #FFF6CD;
+    border: 1px dashed #C60;
+  }
+  
+  #grupos h3 {
+    color: #036;
+  }
+  
+  #grupos p {
+    margin-left: 25px;
+    position: relative;
+  }
+  
+  #grupos p:before {
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #C60;
+  }
+  
+  #grupos a {
+    color: #C60;
+  }  

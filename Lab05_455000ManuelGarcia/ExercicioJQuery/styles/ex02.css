@@ -1,0 +1,18 @@
+/* CSS styles for the jQuery exercise */
+
+#viewer {
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.fadeitem:hover{
+	opacity: 0.5;
+	
+}
+
+#list {
+	list-style: none;
+}

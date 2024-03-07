@@ -1,0 +1,44 @@
+<tabela>
+    <cd id= "1" sexo= "M">
+        <Nome>Paulo António</Nome>
+        <Ano_De_Nascimento>2001</Ano_De_Nascimento>
+        <BI>12435679</BI>
+        <Contribuinte>242656890</Contribuinte>
+        <Sistema>ADSE</Sistema>
+    </cd>
+    <cd id= "2" sexo= "M">
+        <Nome>José Ricardo</Nome>
+        <Ano_De_Nascimento>1988</Ano_De_Nascimento>
+        <BI>12345619</BI>
+        <Contribuinte>182746398</Contribuinte>
+        <Sistema>Multicare</Sistema>
+    </cd>
+    <cd id= "3" sexo= "F">
+        <Nome>Maria Rita</Nome>
+        <Ano_De_Nascimento>1991</Ano_De_Nascimento>
+        <BI>23516787</BI>
+        <Contribuinte>198787627</Contribuinte>
+        <Sistema>Medicare</Sistema>
+    </cd>
+    <cd id= "4" sexo= "M">
+        <Nome>Miguel Antunes</Nome>
+        <Ano_De_Nascimento>2007</Ano_De_Nascimento>
+        <BI>29878167</BI>
+        <Contribuinte>298716726</Contribuinte>
+        <Sistema>Multicare</Sistema>
+    </cd>
+    <cd id= "5" sexo= "F">
+        <Nome>Daniela Relvão</Nome>
+        <Ano_De_Nascimento>1976</Ano_De_Nascimento>
+        <BI>24509878</BI>
+        <Contribuinte>287671656</Contribuinte>
+        <Sistema>ADSE</Sistema>
+    </cd>
+    <cd id= "6" sexo= "F">
+        <Nome>Juliana Mendes</Nome>
+        <Ano_De_Nascimento>2010</Ano_De_Nascimento>
+        <BI>39817623</BI>
+        <Contribuinte>187676543</Contribuinte>
+        <Sistema>Médis</Sistema>
+    </cd>
+</tabela>

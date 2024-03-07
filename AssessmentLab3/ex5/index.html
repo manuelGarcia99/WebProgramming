@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript - Exercício 5</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+	#divbox {
+		width:200px;
+		height:200px;
+		background-color:blue;
+		display:block;
+	}
+	#divgame {
+		width:800px;
+		height:500px;
+		border:2px black solid;
+		margin:auto;
+	}
+</style>
+</head>
+<body>
+
+<h1>Jogo - Tempo de reação</h1>
+
+   <h2>Record: <span id="recordTime"><span></h2>
+   <p>Tempo de reação: <span id="reactionTime"><span></p>
+   <div id="divgame">
+   <div id="divbox" onclick="after()"></div>
+   </div>
+  <script type="text/javascript">
+ 
+  var myTimeout;
+	var clickedTime ,createdTime, reactionTime;
+  function randomshape(){
+    var color = ["red", "blue", "green", "yellow"];
+    var codColor;
+    codColor=Math.random();
+    codColor=codColor*4;
+    codColor= Math.floor(codColor);
+    document.getElementById("divbox").style.backgroundColor=color[codColor];
+    document.getElementById("divbox").style.borderRadius = (Math.floor (Math.random() * 100) ).toString() + "px";
+    document.getElementById("divbox").style.marginTop = (Math.floor (Math.random() * 290)).toString() + "px";
+    document.getElementById("divbox").style.marginLeft = (Math.floor (Math.random() * 590)).toString() + "px";
+
+  }
+
+  function myStopFunction() {
+    clearTimeout(myTimeout);
+  }
+
+  function temporizador()
+  {
+    const myTimeout = setTimeout(makebox, 5000);
+
+  }
+
+  function makebox(){
+    randomshape();
+    temporizador();
+    document.getElementById("divbox").style.display= "block";
+    //pre = new Date();
+    createdTime =  parseFloat(Date.now());
+  }
+
+  function after(){
+    myStopFunction();
+    
+    clickedTime =   parseFloat( Date.now());
+    
+
+    reactionTime = clickedTime - createdTime;
+    reactionTime /= 1000;
+    document.getElementById("reactionTime").textContent = reactionTime.toString();
+    document.getElementById("divbox").style.display= "none";
+    
+    document.getElementById("recordTime").textContent = (document.getElementById("recordTime").textContent === "" || parseFloat(document.getElementById("recordTime").textContent) >= reactionTime) ? 
+    reactionTime.toString() : document.getElementById("recordTime").textContent;
+    if(reactionTime ===  parseFloat(document.getElementById("recordTime").textContent))
+    {
+      alert("Parabéns! Novo recorde!")
+    }
+    
+  }
+  window.onload = makebox;
+  
+  </script>
+
+</body>
+
+</html>

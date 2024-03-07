@@ -1,0 +1,39 @@
+#logo {
+    width: 500px;
+    height: 100px;
+    padding-bottom: 0%;
+}
+
+.inline_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+
+.inline_list li{
+    display : inline-block;
+    
+    margin-right: 2px;
+}
+
+header {
+    margin-bottom: 7px;
+}
+
+.rosa {
+    color: rgb(255,90, 145);
+}
+
+h1 {
+    margin-bottom: 7px;
+}
+h3 {
+    margin-bottom: 7px;
+}
+
+.pergunta {
+    margin-top: 7px;
+    
+}

@@ -1,0 +1,13 @@
+.inline_list {
+    background-color: aqua;
+    padding-bottom: 15px;
+    
+}
+
+
+.inline_list li{
+    display : inline-block;
+    margin-right: 30px;
+    color: white;
+    
+}
